@@ -1,2 +1,0 @@
-#!/bin/sh
-exec /home/rohit/Desktop/js-lib-sniper/virtualenv_python/bin/python /home/rohit/Desktop/js-lib-sniper/virtualenv_python/lib/python2.7/site-packages/PyQt4/uic/pyuic.py ${1+"$@"}
