@@ -167,12 +167,10 @@ class Detect(object):
         return lib_list
 
     def sandbox_execute(self, parse_match):
-        """Execute the javascript library inside selenium with phantomjs as webdriver, 
-        and extract version information."""
-        #selenium phantomjs execution for js version
+        """Execute the javascript library inside webkit browser"""
         s = sandbox.Sandbox()
         s.execute(self.library_text)
-        #only for jquery
+        ##############################only for jquery[more command to be added.]
         return s.execute('jQuery.fn.jquery;')
         s.close()
 
