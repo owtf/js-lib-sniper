@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!../virtualenv_python/bin/python
 # -*- coding: utf-8 -*-
 
 # This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,6 @@ import difflib
 import re
 import json
 
-from sqlalchemy import *
 from simhash import Simhash
 from jsmin import jsmin
 import sqlite3
