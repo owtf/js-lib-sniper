@@ -177,6 +177,7 @@ class Detect(object):
         s.close()
 
     def extended_info(self, library_dict, **kwargs):
+        """Return extended information about the library"""
         parent_name = library_dict['parent_name']
         version = library_dict['version']
         conn = sqlite3.connect(constants.db_path + "/libraries.sqlite")

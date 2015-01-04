@@ -86,6 +86,7 @@ def library_detect(file):
 
 
 def lastversion_online(name):
+    """Check the lastest version available online using jsdeliver api."""
     base_url = 'http://api.jsdelivr.com/v1/{cdn}/libraries?name={name}&fields=lastversion'
     name = name.replace('.', '')
     cdns = ('jsdelivr', 'google', 'cdnjs')
@@ -120,6 +121,7 @@ def lastversion_online(name):
 
 
 def update_db(db, row, **kwargs):
+    """Update database"""
     conn = sqlite3.connect(constants.db_path + "/%s.sqlite" %db)
     conn.row_factory = sqlite3.Row
     c = conn.cursor()

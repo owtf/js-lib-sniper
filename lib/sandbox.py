@@ -20,6 +20,7 @@ from PyQt4.QtWebKit import QWebPage
 
 
 class Sandbox(object):  
+    """Execute javascript in webkit browser."""
     def __init__(self, parent=None):
     	app = QApplication(['dummy'])
     	self.app = app

@@ -18,7 +18,7 @@ import logging
 
 
 class Output(object):
-
+    """Output to logfile and stdout."""
     def __init__(self, stdout = True, log_file = False, verbose = False):
         self.stdout = stdout
         self.log_file = log_file
