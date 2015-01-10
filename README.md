@@ -6,8 +6,8 @@ OWTF's JavaScript Library Sniper: A standalone tool for figuring out vulnerabili
 Dependencies
 -----------------
 
-  * `Python >=26 <http://www.python.org>`
-  * `PyQt > 443 <http://www.riverbankcomputing.co.uk/software/pyqt/download>`
+  * `Python >=2.6 <http://www.python.org>`
+  * `PyQt > 4.4.3 <http://www.riverbankcomputing.co.uk/software/pyqt/download>`
 
 Install
 ----------------
